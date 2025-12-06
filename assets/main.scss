@@ -25,10 +25,51 @@ body {
   opacity: 0.65;
 }
 
-/* Reduce huge gap between title and content on page layouts */
+/* Reduce gaps */
 .page-heading,
 .post-title {
   margin-bottom: 0.75rem;
+}
+
+/* CTA buttons */
+.cta-row {
+  margin: 1.2rem 0 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 1.05rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4f46e5, #0ea5e9);
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #e5e7eb !important;
+  border-color: rgba(229, 231, 235, 0.35);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.06);
 }
 
 /* Project grid & cards */
@@ -48,13 +89,14 @@ body {
 .project-card {
   border-radius: 14px;
   padding: 1.5rem 1.6rem;
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.02),
-    rgba(0, 0, 0, 0.06)
-  );
-  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: radial-gradient(
+      circle at top left,
+      rgba(59, 130, 246, 0.16),
+      transparent 55%
+    ),
+    rgba(15, 23, 42, 0.85);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.6);
   transition:
     transform 160ms ease-out,
     box-shadow 160ms ease-out,
@@ -64,20 +106,15 @@ body {
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.16);
-  border-color: rgba(0, 0, 0, 0.18);
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.04),
-    rgba(0, 0, 0, 0.12)
-  );
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.9);
+  border-color: rgba(129, 140, 248, 0.7);
 }
 
 .project-tag {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  opacity: 0.7;
+  opacity: 0.75;
   margin: 0 0 0.35rem;
 }
 
@@ -88,7 +125,7 @@ body {
 
 .project-meta {
   font-size: 0.85rem;
-  opacity: 0.7;
+  opacity: 0.8;
   margin-bottom: 0.9rem;
 }
 
@@ -107,7 +144,7 @@ body {
   margin-top: 0.4rem;
 }
 
-/* Links – clean, subtle underline */
+/* Links – subtle underline in dark theme */
 a {
   text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
@@ -117,15 +154,14 @@ a:hover {
   border-bottom-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Header: modern, slightly glassy look */
+/* Header & footer */
 .site-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* Footer – a bit more subtle */
 .site-footer {
   font-size: 0.85rem;
-  opacity: 0.8;
+  opacity: 0.85;
 }
