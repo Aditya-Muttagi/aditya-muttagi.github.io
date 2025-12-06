@@ -4,15 +4,16 @@ title: "Contact"
 permalink: /contact/
 ---
 
-I’m open to conversations around:
+I’m open to roles and projects where product and data intersect:
 
-- Analytics for operations and customer journeys  
-- Reporting, dashboards, and decision support  
-- Roles or projects where there is a messy data/problem space  
+- Product / data analyst roles  
+- Funnel, activation and retention analysis  
+- Experimentation, dashboards and decision-support for product and business teams  
 
 You can reach me at:
 
-- **Email:** adityagururaj2000@gmail.com  
-- **LinkedIn:** [linkedin.com/in/aditya-muttagi](https://www.linkedin.com/in/aditya-muttagi/)  
+- **Email:** your.real.email@example.com  
+- **LinkedIn:** [linkedin.com/in/your-handle](https://www.linkedin.com/in/your-handle)  
+- **Resume:** [Download my resume →](/assets/Aditya_Muttagi_Resume.pdf)
 
-If you reference this site, feel free to mention which project or section caught your attention.
+If you reference this site, feel free to mention which case study caught your attention.
