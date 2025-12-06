@@ -1,16 +1,8 @@
 title: "Aditya Muttagi"
 description: "Consultant | Analytics & Operations | Turning messy data into sharp decisions."
-theme: minima
 
-author:
-  name: "Aditya Muttagi"
-  email: "your.email@example.com"
-
-# Navigation links in the top header
-header_pages:
-  - about.md
-  - projects.md
-  - contact.md
+author: "Aditya Muttagi"
+email: "your.real.email@domain.com"
 
 minima:
   skin: dark
@@ -19,3 +11,8 @@ minima:
       user_url: "https://github.com/aditya-muttagi"
     - platform: linkedin
       user_url: "https://www.linkedin.com/in/<your-handle>/"
+
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
