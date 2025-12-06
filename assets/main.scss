@@ -1,0 +1,51 @@
+---
+---
+
+@import "minima";
+
+// Overall typography
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+// Content width and breathing space
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+// Header: slightly glassy and modern
+.site-header {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+// Links / accent color
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+a:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+// “Card” feel for main content sections
+.post-content h2,
+.post-content h3 {
+  margin-top: 2.5rem;
+}
+
+.post-content p,
+.post-content ul {
+  line-height: 1.7;
+}
+
+// Optional: rounded code/blocks, if you use them later
+pre,
+code {
+  border-radius: 8px;
+}
