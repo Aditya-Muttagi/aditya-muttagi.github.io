@@ -4,16 +4,24 @@ title: "About"
 permalink: /about/
 ---
 
-# About
+I’m Aditya, a consultant at EXL working at the intersection of **operations, analytics, and reporting**.
 
-I’m Aditya, a consultant at EXL, currently working at the intersection of operations, analytics, and reporting.
+## How I Work
 
-I enjoy:
-- Clarifying vague requirements into well-defined questions
-- Building simple analytical flows instead of over-engineered solutions
-- Communicating insights in a way that busy stakeholders can actually use
+- Start by clarifying vague requirements into sharp, solvable questions  
+- Prefer simple, repeatable analytical flows over over-engineered one-offs  
+- Communicate in plain language so non-technical stakeholders can actually use the output  
 
-Over time, I want this site to become a living record of:
+## What I’ve Worked With
+
+- **Domains:** customer analytics, operations performance, reporting automation  
+- **Tools:** Excel, Power BI / dashboarding, SQL / Python (adjust this to your real stack)  
+- **Typical outputs:** decision decks, recurring reports, monitoring views, prototypes for dashboards  
+
+## Where This Site Is Going
+
+Over time, this will become a record of:
+
 - Projects I’ve shipped  
-- Ideas and frameworks that I find useful  
-- Small experiments around automation, dashboards, and decision-support tools
+- Small experiments in automation and dashboards  
+- Frameworks I find useful for breaking down messy business problems
