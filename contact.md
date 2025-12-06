@@ -4,17 +4,15 @@ title: "Contact"
 permalink: /contact/
 ---
 
-# Contact
-
 I’m open to conversations around:
 
 - Analytics for operations and customer journeys  
-- Reporting and dashboard design  
-- Process improvement and decision support
+- Reporting, dashboards, and decision support  
+- Roles or projects where there is a messy data/problem space  
 
 You can reach me at:
 
-- **Email:** your.email@example.com  
-- **LinkedIn:** [linkedin.com/in/<your-handle>](https://www.linkedin.com/in/<your-handle>/)  
+- **Email:** your.real.email@example.com  
+- **LinkedIn:** [linkedin.com/in/your-handle](https://www.linkedin.com/in/your-handle)  
 
-If you reference this site, feel free to mention which section or project caught your attention.
+If you reference this site, feel free to mention which project or section caught your attention.
