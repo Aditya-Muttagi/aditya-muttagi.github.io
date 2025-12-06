@@ -3,49 +3,114 @@
 
 @import "minima";
 
-// Overall typography
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.01em;
+/* Page subtitle under main H1 */
+.page-subtitle {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
 }
 
-// Content width and breathing space
+/* Projects grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.75rem;
+}
+
+/* Individual project card */
+.project-card {
+  padding: 1.75rem 1.75rem 1.5rem;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.02),
+    rgba(0, 0, 0, 0.04)
+  );
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.04);
+  transition:
+    transform 160ms ease-out,
+    box-shadow 160ms ease-out,
+    border-color 160ms ease-out,
+    background 160ms ease-out;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+/* Header inside each card */
+.project-header h2 {
+  margin-bottom: 0.25rem;
+  font-size: 1.35rem;
+}
+
+.project-one-liner {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Tag chip at top of card */
+.project-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Definition list styling */
+.project-body {
+  margin-top: 0.75rem;
+}
+
+.project-body dt {
+  margin-top: 1.25rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+.project-body dd {
+  margin-top: 0.35rem;
+  margin-left: 0;
+  font-size: 0.95rem;
+}
+
+/* Lists inside cards */
+.project-body ul {
+  margin-top: 0.15rem;
+  padding-left: 1.1rem;
+}
+
+.project-body li + li {
+  margin-top: 0.2rem;
+}
+
+/* Slightly narrower content width for better readability */
 .page-content {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem;
+  max-width: 980px;
 }
 
-// Header: slightly glassy and modern
-.site-header {
-  backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-}
+/* Responsive: two-column layout on wider screens */
+@media (min-width: 880px) {
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 
-// Links / accent color
-a {
-  text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-a:hover {
-  border-bottom-color: rgba(255, 255, 255, 0.4);
-}
-
-// “Card” feel for main content sections
-.post-content h2,
-.post-content h3 {
-  margin-top: 2.5rem;
-}
-
-.post-content p,
-.post-content ul {
-  line-height: 1.7;
-}
-
-// Optional: rounded code/blocks, if you use them later
-pre,
-code {
-  border-radius: 8px;
+  .project-card:nth-child(3) {
+    grid-column: 1 / -1; /* last card spans full width */
+  }
 }
