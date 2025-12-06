@@ -1,11 +1,10 @@
 title: "Aditya Muttagi"
-description: "Consultant | Analytics & Operations | Turning messy data into sharp decisions."
+description: "Product & Data Analytics | Turning behaviour and product data into decisions."
 
-# Use the Minima theme (works well with GitHub Pages)
 theme: minima
 
-# Basic metadata
-email: "adityagururaj2000@gmail.com" 
+author: "Aditya Muttagi"
+email: "your.real.email@example.com" # ← replace with your real email
 
 # Top navigation
 header_pages:
@@ -13,11 +12,10 @@ header_pages:
   - projects.md
   - contact.md
 
-# Minima-specific options
 minima:
   skin: dark
   social_links:
     - platform: github
       user_url: "https://github.com/aditya-muttagi"
     - platform: linkedin
-      user_url: "https://www.linkedin.com/in/aditya-muttagi/"
+      user_url: "https://www.linkedin.com/in/your-handle/" # ← replace handle
