@@ -12,7 +12,7 @@ I’m open to conversations around:
 
 You can reach me at:
 
-- **Email:** your.real.email@example.com  
-- **LinkedIn:** [linkedin.com/in/your-handle](https://www.linkedin.com/in/your-handle)  
+- **Email:** adityagururaj2000@gmail.com  
+- **LinkedIn:** [linkedin.com/in/your-handle](https://www.linkedin.com/in/aditya-muttagi/)  
 
 If you reference this site, feel free to mention which project or section caught your attention.
