@@ -6,7 +6,7 @@ theme: minima
 
 # Basic metadata
 author: "Aditya Muttagi"
-email: "your.real.email@example.com" # ← replace with your real email
+email: "adityagururaj2000@gmail.com" 
 
 # Top navigation
 header_pages:
@@ -21,4 +21,4 @@ minima:
     - platform: github
       user_url: "https://github.com/aditya-muttagi"
     - platform: linkedin
-      user_url: "https://www.linkedin.com/in/your-handle/" # ← replace handle
+      user_url: "https://www.linkedin.com/in/aditya-muttagi/"
