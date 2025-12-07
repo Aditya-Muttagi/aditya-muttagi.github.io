@@ -3,69 +3,115 @@ layout: home
 title: "Home"
 ---
 
-# Aditya Muttagi  
-Product & Data Analytics
+<section class="hero fade-in-up">
+  <p class="hero-kicker">PRODUCT & DATA ANALYTICS</p>
+  <h1 class="hero-title">Hi, I’m <span class="accent">Aditya</span>.</h1>
+  <p class="hero-subtitle">
+    I help product and business teams turn behaviour and operations data into 
+    <strong>clear, decision-ready stories</strong> — so they can ship better features,
+    improve funnels, and understand what really drives impact.
+  </p>
 
-I work on turning product behaviour and operations data into **clear, decision-ready stories** for product and business teams.
+  <div class="hero-cta-row">
+    <a class="btn btn-primary" href="/projects">View case studies</a>
+    <a class="btn btn-ghost" href="/assets/Aditya_Muttagi_Resume.pdf">Download resume</a>
+  </div>
+</section>
 
-<div class="cta-row">
-  <a class="btn btn-primary" href="/projects">View case studies →</a>
-  <a class="btn btn-secondary" href="/assets/Aditya_Muttagi_Resume.pdf">Download resume →</a>
-</div>
+<section class="section-grid fade-in-up delay-1">
+  <article class="info-card">
+    <h2>What I do</h2>
+    <ul class="bullet-list">
+      <li>Analyse funnels and journeys to quantify where users drop off</li>
+      <li>Translate ambiguous business asks into clear, measurable questions</li>
+      <li>Build concise dashboards and narratives for non-technical stakeholders</li>
+    </ul>
+  </article>
 
----
+  <article class="info-card">
+    <h2>How I work</h2>
+    <ul class="bullet-list">
+      <li>Start with decisions → then work backwards to data and metrics</li>
+      <li>Keep analysis opinionated but honest about trade-offs</li>
+      <li>Document assumptions, caveats, and next steps clearly</li>
+    </ul>
+  </article>
 
-## Snapshot
+  <article class="info-card">
+    <h2>Tools & stack</h2>
+    <p class="muted">
+      SQL · Excel/Sheets · BI tools · Experiment analysis · Funnel diagnostics · Cohorts · 
+      Retention · Product instrumentation thinking
+    </p>
+  </article>
+</section>
 
-- **Current role:** Consultant at EXL  
-- **Focus:** Product & funnel analytics, experimentation, reporting  
-- **Strengths:** Breaking vague product questions into measurable hypotheses and metrics  
+<section class="section-block fade-in-up delay-2">
+  <div class="section-heading-row">
+    <h2>Selected case studies</h2>
+    <a class="text-link" href="/projects">View all case studies →</a>
+  </div>
 
----
+  <div class="card-grid">
+    <article class="project-card">
+      <p class="project-tag">Funnel analysis</p>
+      <h3>Reducing drop-offs in a key onboarding flow</h3>
+      <p class="project-summary">
+        Mapped a multi-step onboarding journey, quantified conversion at each step,
+        and identified 2 high-friction interactions causing majority drop-offs.
+        Turned findings into a prioritized set of UX and product changes.
+      </p>
+      <ul class="project-meta">
+        <li>Tools: SQL, funnel views</li>
+        <li>Output: diagnostic deck + simple dashboard</li>
+      </ul>
+      <a class="project-link" href="/projects#onboarding-funnel">Read case study →</a>
+    </article>
 
-## Case Study Highlights
+    <article class="project-card">
+      <p class="project-tag">Retention & cohorts</p>
+      <h3>Understanding what drives repeat usage</h3>
+      <p class="project-summary">
+        Built cohorts by first-week behaviour and acquisition channel, 
+        visualised retention curves, and identified behaviours strongly correlated
+        with higher long-term engagement.
+      </p>
+      <ul class="project-meta">
+        <li>Methods: cohort analysis, retention curves</li>
+        <li>Impact: clearer definition of “healthy” early usage</li>
+      </ul>
+      <a class="project-link" href="/projects#retention-cohorts">Read case study →</a>
+    </article>
 
-These are examples of the type of work I do or want to specialise in.  
-Each one is written like a product case study: **context → approach → impact**.
+    <article class="project-card">
+      <p class="project-tag">Performance reporting</p>
+      <h3>Turning scattered reports into a single view</h3>
+      <p class="project-summary">
+        Consolidated fragmented operational and product metrics into a single 
+        weekly view, with consistent definitions and commentary that leadership 
+        could rely on.
+      </p>
+      <ul class="project-meta">
+        <li>Focus: metric design, clarity</li>
+        <li>Outcome: faster decision cycles, less ad-hoc analysis</li>
+      </ul>
+      <a class="project-link" href="/projects#executive-dashboard">Read case study →</a>
+    </article>
+  </div>
+</section>
 
-### Feature Adoption & Activation
+<section class="section-block fade-in-up delay-3">
+  <h2>What I want to work on next</h2>
+  <p class="muted">
+    I’m looking for roles where I can sit close to product teams and own the analytics
+    for key journeys or features — from instrumentation and metric design, through to
+    analysis and storytelling.
+  </p>
 
-Analysed how new users interacted with a key feature to understand why activation lagged behind sign-ups.
-
-- Defined an activation metric aligned with product value  
-- Built a simple funnel from sign-up → activation → repeat usage  
-- Identified friction points and user segments with low completion  
-
-[Read more →](/projects#activation-case-study)
-
----
-
-### Conversion Funnel Deep-Dive
-
-Looked at a sign-up → subscription funnel to find where users were dropping and why.
-
-- Broke the journey into clear steps with drop-off at each stage  
-- Compared funnel by device, traffic source and cohort  
-- Produced a prioritised list of fixes and quick experiments  
-
-[Read more →](/projects#funnel-case-study)
-
----
-
-### Retention & Cohort View
-
-Explored how retention behaved across different user cohorts.
-
-- Built basic cohort tables and visualised retention curves  
-- Looked at differences by acquisition channel and early behaviour  
-- Suggested instrumentation / event improvements to track retention better  
-
-[Read more →](/projects#retention-case-study)
-
----
-
-## What I’m Looking To Do More Of
-
-- Product analytics for **B2C or B2B** products  
-- Funnel and growth experiments (A/B tests, holdout analysis)  
-- Building lightweight dashboards and reporting for product teams
+  <ul class="pill-list">
+    <li class="pill">Product analytics (B2C / B2B)</li>
+    <li class="pill">Onboarding & growth funnels</li>
+    <li class="pill">Experimentation & A/B testing</li>
+    <li class="pill">Lightweight dashboards & recurring reporting</li>
+  </ul>
+</section>
