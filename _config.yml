@@ -18,4 +18,4 @@ minima:
     - platform: github
       user_url: "https://github.com/aditya-muttagi"
     - platform: linkedin
-      user_url: "https://www.linkedin.com/in/your-handle/" # ← replace handle
+      user_url: "https://www.linkedin.com/in/your-handle/" # ← replace with your LinkedIn handle
