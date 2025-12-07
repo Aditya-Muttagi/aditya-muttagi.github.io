@@ -10,6 +10,7 @@ email: "your.real.email@example.com" # ← replace with your real email
 header_pages:
   - about.md
   - projects.md
+  - resume.md
   - contact.md
 
 minima:
