@@ -5,16 +5,35 @@ title: "Home"
 
 <section class="hero fade-in-up">
   <p class="hero-kicker">PRODUCT & DATA ANALYTICS</p>
-  <h1 class="hero-title">Hi, I’m <span class="accent">Aditya</span>.</h1>
+  <h1 class="hero-title">
+    I turn product & behaviour data into
+    <span class="accent">clear, decision-ready stories.</span>
+  </h1>
+
   <p class="hero-subtitle">
-    I help product and business teams turn behaviour and operations data into 
-    <strong>clear, decision-ready stories</strong> — so they can ship better features,
-    improve funnels, and understand what really drives impact.
+    I work with product and business teams to understand what’s really happening in funnels,
+    journeys, and cohorts — then translate that into prioritised, opinionated recommendations.
   </p>
+
+  <div class="hero-metrics">
+    <div class="metric-pill">
+      <span class="metric-value">3.5+ yrs</span>
+      <span class="metric-label">Analytics & consulting experience</span>
+    </div>
+    <div class="metric-pill">
+      <span class="metric-value">Ops → Product</span>
+      <span class="metric-label">Comfortable with messy, real-world data</span>
+    </div>
+    <div class="metric-pill">
+      <span class="metric-value">End-to-end</span>
+      <span class="metric-label">From question → data → story</span>
+    </div>
+  </div>
 
   <div class="hero-cta-row">
     <a class="btn btn-primary" href="/projects">View case studies</a>
-    <a class="btn btn-ghost" href="/assets/Aditya_Muttagi_Resume.pdf">Download resume</a>
+    <a class="btn btn-ghost" href="/resume">View resume</a>
+    <a class="btn btn-ghost-secondary" href="/contact">Contact</a>
   </div>
 </section>
 
@@ -22,27 +41,19 @@ title: "Home"
   <article class="info-card">
     <h2>What I do</h2>
     <ul class="bullet-list">
-      <li>Analyse funnels and journeys to quantify where users drop off</li>
-      <li>Translate ambiguous business asks into clear, measurable questions</li>
-      <li>Build concise dashboards and narratives for non-technical stakeholders</li>
+      <li>Analyse funnels and journeys to quantify where and why users drop off</li>
+      <li>Turn ambiguous business asks into precise, answerable questions</li>
+      <li>Build concise views and decks that non-technical stakeholders can act on</li>
     </ul>
   </article>
 
   <article class="info-card">
     <h2>How I work</h2>
     <ul class="bullet-list">
-      <li>Start with decisions → then work backwards to data and metrics</li>
-      <li>Keep analysis opinionated but honest about trade-offs</li>
-      <li>Document assumptions, caveats, and next steps clearly</li>
+      <li><strong>Decisions first.</strong> Start from what will change if we learn X vs Y.</li>
+      <li><strong>Metrics with teeth.</strong> Careful about what we actually measure.</li>
+      <li><strong>Honest framing.</strong> Clear about assumptions, caveats, and trade-offs.</li>
     </ul>
-  </article>
-
-  <article class="info-card">
-    <h2>Tools & stack</h2>
-    <p class="muted">
-      SQL · Excel/Sheets · BI tools · Experiment analysis · Funnel diagnostics · Cohorts · 
-      Retention · Product instrumentation thinking
-    </p>
   </article>
 </section>
 
@@ -54,47 +65,46 @@ title: "Home"
 
   <div class="card-grid">
     <article class="project-card">
+      <div class="project-thumb-wrapper">
+        <div class="project-thumb-placeholder">Onboarding funnel view</div>
+        <!-- Replace with a real image if you have one:
+        <img src="/assets/img/onboarding-funnel.png" alt="Onboarding funnel analysis" class="project-thumb" />
+        -->
+      </div>
       <p class="project-tag">Funnel analysis</p>
       <h3>Reducing drop-offs in a key onboarding flow</h3>
       <p class="project-summary">
-        Mapped a multi-step onboarding journey, quantified conversion at each step,
-        and identified 2 high-friction interactions causing majority drop-offs.
-        Turned findings into a prioritized set of UX and product changes.
+        Built a clean, stepwise funnel view to reveal where users actually drop and
+        aligned teams on the two highest-leverage fixes.
       </p>
-      <ul class="project-meta">
-        <li>Tools: SQL, funnel views</li>
-        <li>Output: diagnostic deck + simple dashboard</li>
-      </ul>
       <a class="project-link" href="/projects#onboarding-funnel">Read case study →</a>
     </article>
 
     <article class="project-card">
+      <div class="project-thumb-wrapper">
+        <div class="project-thumb-placeholder">Retention curves</div>
+        <!-- <img src="/assets/img/retention-cohorts.png" alt="Retention cohort analysis" class="project-thumb" /> -->
+      </div>
       <p class="project-tag">Retention & cohorts</p>
       <h3>Understanding what drives repeat usage</h3>
       <p class="project-summary">
-        Built cohorts by first-week behaviour and acquisition channel, 
-        visualised retention curves, and identified behaviours strongly correlated
-        with higher long-term engagement.
+        Defined retention, built cohorts, and identified behaviours correlated
+        with better long-term engagement.
       </p>
-      <ul class="project-meta">
-        <li>Methods: cohort analysis, retention curves</li>
-        <li>Impact: clearer definition of “healthy” early usage</li>
-      </ul>
       <a class="project-link" href="/projects#retention-cohorts">Read case study →</a>
     </article>
 
     <article class="project-card">
-      <p class="project-tag">Performance reporting</p>
-      <h3>Turning scattered reports into a single view</h3>
+      <div class="project-thumb-wrapper">
+        <div class="project-thumb-placeholder">Executive view</div>
+        <!-- <img src="/assets/img/executive-dashboard.png" alt="Executive dashboard view" class="project-thumb" /> -->
+      </div>
+      <p class="project-tag">Reporting & metrics</p>
+      <h3>From scattered reports to a single, trusted view</h3>
       <p class="project-summary">
-        Consolidated fragmented operational and product metrics into a single 
-        weekly view, with consistent definitions and commentary that leadership 
-        could rely on.
+        Consolidated multiple conflicting reports into one weekly “source of truth”
+        that leadership actually used.
       </p>
-      <ul class="project-meta">
-        <li>Focus: metric design, clarity</li>
-        <li>Outcome: faster decision cycles, less ad-hoc analysis</li>
-      </ul>
       <a class="project-link" href="/projects#executive-dashboard">Read case study →</a>
     </article>
   </div>
@@ -103,15 +113,16 @@ title: "Home"
 <section class="section-block fade-in-up delay-3">
   <h2>What I want to work on next</h2>
   <p class="muted">
-    I’m looking for roles where I can sit close to product teams and own the analytics
-    for key journeys or features — from instrumentation and metric design, through to
-    analysis and storytelling.
+    I’m especially interested in roles where I can sit close to product teams and own
+    analytics for key journeys or features — from instrumentation and metric design
+    through to analysis and storytelling.
   </p>
 
   <ul class="pill-list">
     <li class="pill">Product analytics (B2C / B2B)</li>
     <li class="pill">Onboarding & growth funnels</li>
     <li class="pill">Experimentation & A/B testing</li>
-    <li class="pill">Lightweight dashboards & recurring reporting</li>
+    <li class="pill">Retention & lifecycle</li>
+    <li class="pill">Lightweight dashboards & reporting</li>
   </ul>
 </section>
