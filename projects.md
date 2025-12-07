@@ -1,97 +1,153 @@
 ---
 layout: page
-title: "Case Studies"
+title: "Projects"
 permalink: /projects/
 ---
 
-<span class="page-eyebrow">Product & Data Analytics</span>
+<section class="page-hero fade-in-up">
+  <p class="hero-kicker">CASE STUDIES</p>
+  <h1>Turning questions into decisions</h1>
+  <p class="hero-subtitle narrow">
+    A few examples of how I approach product and data problems — from scoping the question,
+    to structuring the analysis, to turning it into a narrative stakeholders can act on.
+  </p>
+</section>
 
-Each case study follows the same pattern: <strong>context → approach → impact</strong>.  
-You can replace the placeholder details below with your real projects as you build them.
+<section class="section-block fade-in-up delay-1" id="onboarding-funnel">
+  <article class="project-detail-card">
+    <p class="project-tag">Funnel analysis · Onboarding</p>
+    <h2>Reducing drop-offs in a key onboarding flow</h2>
 
-<div class="project-grid">
+    <div class="project-columns">
+      <div>
+        <h3>The context</h3>
+        <p>
+          A multi-step onboarding flow was seeing good top-of-funnel traffic,
+          but poor completion. Multiple teams had different hypotheses, but no
+          shared view of where exactly users were dropping.
+        </p>
 
-  <article class="project-card" id="activation-case-study">
-    <p class="project-tag">Feature Adoption</p>
-    <h2 class="project-title">Improving New User Activation</h2>
-    <p class="project-meta">Sample case – replace with your real project</p>
+        <h3>What I did</h3>
+        <ul class="bullet-list">
+          <li>Mapped the complete user journey with clear event definitions</li>
+          <li>Built a stepwise funnel view and quantified drop-offs at each stage</li>
+          <li>Segmented by device type and traffic source to uncover patterns</li>
+          <li>Created a single slide that captured the “true” problem statement</li>
+        </ul>
+      </div>
 
-    <p><strong>Context</strong></p>
-    <p>
-      New users were signing up but not meaningfully using a core feature in the
-      first week. The product team wanted to understand where the friction was
-      and what “activation” should actually mean.
-    </p>
+      <div>
+        <h3>How I approached it</h3>
+        <ul class="bullet-list">
+          <li>Focused first on a trustworthy funnel definition and event quality</li>
+          <li>Resisted over-segmentation until the core picture was stable</li>
+          <li>Turned scattered hypotheses into a prioritised list of UX changes</li>
+        </ul>
 
-    <p><strong>Approach</strong></p>
-    <ul>
-      <li>Defined an activation event tied to real product value (not just log-in)</li>
-      <li>Built a simple journey from sign-up → onboarding → first key action</li>
-      <li>Segmented activation rate by device, channel and onboarding path</li>
-      <li>Reviewed event tracking and proposed a cleaner event schema</li>
-    </ul>
+        <h3>Outcome</h3>
+        <p>
+          The team aligned on two high-friction steps to fix first, instead of
+          debating personal intuitions. Follow-up experiments were scoped with
+          realistic expectations on potential impact.
+        </p>
 
-    <p class="project-outcome"><strong>Impact</strong></p>
-    <p>
-      Produced a clear activation metric and identified 2–3 friction points in
-      onboarding for experimentation (e.g., copy changes, nudges, streamlined
-      steps). <em>When you have numbers, replace this with real uplift or learnings.</em>
-    </p>
+        <ul class="project-meta">
+          <li>Tools: SQL / BI tool funnel views</li>
+          <li>Output: diagnostic deck + lightweight monitoring view</li>
+        </ul>
+      </div>
+    </div>
   </article>
+</section>
 
-  <article class="project-card" id="funnel-case-study">
-    <p class="project-tag">Conversion Funnel</p>
-    <h2 class="project-title">Sign-up to Subscription Funnel Deep-Dive</h2>
-    <p class="project-meta">Sample case – replace with your real project</p>
+<section class="section-block fade-in-up delay-2" id="retention-cohorts">
+  <article class="project-detail-card">
+    <p class="project-tag">Retention · Cohorts</p>
+    <h2>Understanding what drives repeat usage</h2>
 
-    <p><strong>Context</strong></p>
-    <p>
-      The product had healthy traffic and sign-ups but weak conversion to paid
-      subscription. The goal was to quantify drop-offs at each step and find
-      where to focus UX and experimentation efforts.
-    </p>
+    <div class="project-columns">
+      <div>
+        <h3>The context</h3>
+        <p>
+          Leadership wanted to “improve retention”, but the product had no clear 
+          view of who was actually retained, and what early behaviours predicted it.
+        </p>
 
-    <p><strong>Approach</strong></p>
-    <ul>
-      <li>Broke the journey into discrete steps with clear entry/exit criteria</li>
-      <li>Built funnel views overall and sliced by device, channel and cohort</li>
-      <li>Highlighted steps with both high drop-off and high volume</li>
-      <li>Suggested a short list of A/B test ideas for the worst steps</li>
-    </ul>
+        <h3>What I did</h3>
+        <ul class="bullet-list">
+          <li>Defined retention clearly (and what counts as meaningful activity)</li>
+          <li>Built weekly cohorts and plotted retention curves over time</li>
+          <li>Segmented cohorts by acquisition channel and early usage patterns</li>
+          <li>Identified behaviours strongly associated with better long-term use</li>
+        </ul>
+      </div>
 
-    <p class="project-outcome"><strong>Impact</strong></p>
-    <p>
-      Delivered a prioritised funnel view that let the team focus on the
-      highest-leverage step first. <em>Swap this with real impact: e.g., projected
-      conversion gain or results from launched experiments.</em>
-    </p>
+      <div>
+        <h3>How I approached it</h3>
+        <ul class="bullet-list">
+          <li>Started from business reality: what behaviour actually matters</li>
+          <li>Made trade-offs explicit (e.g., engagement vs. pure activity).</li>
+          <li>Annotated charts with plain language explanations for stakeholders</li>
+        </ul>
+
+        <h3>Outcome</h3>
+        <p>
+          The team refined its activation metric, focused onboarding on a small
+          set of “healthy behaviours”, and had a much clearer baseline for
+          evaluating retention experiments.
+        </p>
+
+        <ul class="project-meta">
+          <li>Methods: cohort analysis, retention curves</li>
+          <li>Output: annotated visuals + short write-up</li>
+        </ul>
+      </div>
+    </div>
   </article>
+</section>
 
-  <article class="project-card" id="retention-case-study">
-    <p class="project-tag">Retention & Cohorts</p>
-    <h2 class="project-title">Cohort-Based Retention Analysis</h2>
-    <p class="project-meta">Sample case – replace with your real project</p>
+<section class="section-block fade-in-up delay-3" id="executive-dashboard">
+  <article class="project-detail-card">
+    <p class="project-tag">Reporting · Metric design</p>
+    <h2>From scattered reports to a single, trusted view</h2>
 
-    <p><strong>Context</strong></p>
-    <p>
-      The team wanted to move away from looking only at monthly active users and
-      instead understand how retention behaved by cohort and acquisition source.
-    </p>
+    <div class="project-columns">
+      <div>
+        <h3>The context</h3>
+        <p>
+          Stakeholders were receiving multiple reports with different metrics,
+          definitions, and time windows. As a result, meetings spent more time
+          reconciling numbers than making decisions.
+        </p>
 
-    <p><strong>Approach</strong></p>
-    <ul>
-      <li>Built cohort tables (sign-up month vs week N activity)</li>
-      <li>Plotted retention curves and compared by acquisition channel</li>
-      <li>Looked at early behaviours that correlated with long-term retention</li>
-      <li>Identified gaps in instrumentation and proposed new events to track</li>
-    </ul>
+        <h3>What I did</h3>
+        <ul class="bullet-list">
+          <li>Audited existing reports and reconciled metric definitions</li>
+          <li>Agreed on a concise set of core product and operational metrics</li>
+          <li>Designed a single weekly “source of truth” view</li>
+          <li>Added commentary templates to capture context and caveats</li>
+        </ul>
+      </div>
 
-    <p class="project-outcome"><strong>Impact</strong></p>
-    <p>
-      Gave the team a clearer view of retention quality, not just volume, and
-      pointed to early behaviours and channels that were worth investing in.
-      <em>Replace with your own numbers or key learnings.</em>
-    </p>
+      <div>
+        <h3>How I approached it</h3>
+        <ul class="bullet-list">
+          <li>Prioritised clarity and consistency over volume of metrics</li>
+          <li>Worked closely with stakeholders on what they actually use</li>
+          <li>Ensured the view could be maintained with minimal friction</li>
+        </ul>
+
+        <h3>Outcome</h3>
+        <p>
+          Leadership had a single, reliable file to review each week.
+          Decision time shortened, and ad-hoc number disputes dropped sharply.
+        </p>
+
+        <ul class="project-meta">
+          <li>Focus: definition alignment, stakeholder communication</li>
+          <li>Output: weekly dashboard + metric documentation</li>
+        </ul>
+      </div>
+    </div>
   </article>
-
-</div>
+</section>
