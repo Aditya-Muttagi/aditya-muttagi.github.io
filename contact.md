@@ -8,8 +8,8 @@ permalink: /contact/
   <p class="hero-kicker">CONTACT</p>
   <h1>Let’s talk</h1>
   <p class="hero-subtitle narrow">
-    If you’re working on a product where better analytics could unlock better
-    decisions, I’m happy to discuss roles, projects, or just compare notes.
+    If you’re working on a product where better analytics could unlock better decisions,
+    I’m happy to discuss roles, projects, or just compare notes.
   </p>
 </section>
 
@@ -18,7 +18,7 @@ permalink: /contact/
     <h2>Email</h2>
     <p>
       The most reliable way to reach me is by email.
-      I usually respond with a short, direct reply rather than a long essay.
+      I usually respond with a short, direct reply.
     </p>
     <p class="highlight-line">
       <a href="mailto:{{ site.email }}">{{ site.email }}</a>
@@ -28,7 +28,7 @@ permalink: /contact/
   <article class="info-card">
     <h2>LinkedIn</h2>
     <p>
-      For roles or collaborations, you can also reach out via LinkedIn with a brief,
+      For roles or collaborations, you can also reach out on LinkedIn with a brief,
       concrete description of what you’re working on.
     </p>
     <p class="highlight-line">
