@@ -445,3 +445,30 @@ a:hover {
     flex-direction: column;
   }
 }
+
+/* Nav active state */
+
+.site-nav .page-link {
+  position: relative;
+  padding-bottom: 0.1rem;
+}
+
+.site-nav .page-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #60a5fa, #f97316);
+  transition: width 160ms ease-out;
+  opacity: 0.8;
+}
+
+.site-nav .page-link:hover::after {
+  width: 100%;
+}
+
+.site-nav .page-link[aria-current="page"]::after {
+  width: 100%;
+}
