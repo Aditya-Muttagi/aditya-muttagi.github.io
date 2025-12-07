@@ -1,12 +1,11 @@
 title: "Aditya Muttagi"
-description: "Product & Data Analytics | Turning behaviour and product data into decisions."
+description: "Product & Data Analytics"
 
 theme: minima
 
 author: "Aditya Muttagi"
-email: "your.real.email@example.com" # ← replace with your real email
+email: "your.email@example.com" # replace
 
-# Top navigation
 header_pages:
   - about.md
   - projects.md
@@ -19,4 +18,4 @@ minima:
     - platform: github
       user_url: "https://github.com/aditya-muttagi"
     - platform: linkedin
-      user_url: "https://www.linkedin.com/in/your-handle/" # ← replace with your LinkedIn handle
+      user_url: "https://www.linkedin.com/in/your-handle/"
